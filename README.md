@@ -1,0 +1,1 @@
+# goosevpn-config
