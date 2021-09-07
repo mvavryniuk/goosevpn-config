@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>cert_Local_CA.crt</string>
+			<key>PayloadContent</key>
+			<data>
+			MIIC+DCCAeCgAwIBAgIFANEYkhIwDQYJKoZIhvcNAQELBQAwLjETMBEGA1UEChMK
+			R29vZHZhbGxleTEXMBUGA1UEAxMOMTM3LjExNy4xMzYuNDIwHhcNMjEwODMwMDUy
+			ODU0WhcNMjIwODMwMDUyODU0WjAuMRMwEQYDVQQKEwpHb29kdmFsbGV5MRcwFQYD
+			VQQDEw4xMzcuMTE3LjEzNi40MjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+			ggEBAK+QrVJQwom+pdGCaajXy4Bfx4zuuGNB0qBpM6RvNgDOyuVZU34NYCYISA7e
+			DM/pT/4c2Mq5U2KRNjWc8Dq1QQUsEdqEZFqx2LLMmypjo7C4+MeI9quGR9jvXLl3
+			9R2g7z/uBTYRSTW4/wwbBknVJYsRtTQ04fXkjbH+o2S7qVRx9HUERGjEJSuhQzPO
+			hABAhmjSDdDVzWZueISK2nFBoPHIa35KIs7KUQhjP2twYK+DLBe9YwDL0XjaP+BT
+			ozT+h1Qpy7hi+F2sSCkISkHjGLMbshfDtdlcdxbaCLOOc81Lxw6o+9pCYmexC5Lg
+			JkRTjSrGaPjl0w3/KDRRfgcvp8sCAwEAAaMdMBswDAYDVR0TBAUwAwEB/zALBgNV
+			HQ8EBAMCAgQwDQYJKoZIhvcNAQELBQADggEBAIniRED5ATrcaqc07/rZq9kjKMan
+			VHvT+CxRl5yjiApDba80OP5HhUrvQM/XlhLpx4yU/geRDlLtCgRwa0fRBQ2TEBo0
+			yZSKLZYUufXyEMOUXq0Tp8rXlK3+1q2Oq+2PXRN/Yp2JgHbh6QExx5iUJSdLzf0N
+			89nf9UV4Q7UhWiezioeHd1dIEP88nX4TkfVOyMDQcAlYJqIkxje52TaEXLPO+wYO
+			gkaAhzaPKvZ4aXSZyafR+/1kqksHHRLoHHMUzIksTSMgmekilsysW90rq9uUOk3Q
+3			8QKLDhM3Q8vpmqU2FdRoOxVXY+7u4X7xcgY/cNdGwXQ0AwB6QIlZyy7ea8=
+			</data>
+			<key>PayloadDescription</key>
+			<string>Adds a CA root certificate</string>
+			<key>PayloadDisplayName</key>
+			<string>137.117.136.42</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.root.BFD5C58C-CB2D-4E6A-989B-F9C52CE4000E</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>BFD5C58C-CB2D-4E6A-989B-F9C52CE4000E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>GoodValleyVPN</string>
+	<key>PayloadIdentifier</key>
+	<string>Air.29BFD89B-327C-4A3C-9E15-D8BCBE06572B</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>0EFE0E01-09D0-412B-A164-B59552CC6390</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
