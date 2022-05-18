@@ -5,143 +5,97 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>IPSec</key>
-			<dict>
-				<key>AuthenticationMethod</key>
-				<string>Certificate</string>
-				<key>PayloadCertificateUUID</key>
-				<string>CF814D2B-C4EF-4253-B7B2-1955AC8ACC4F</string>
-			</dict>
-			<key>IPv4</key>
-			<dict>
-				<key>OverridePrimary</key>
-				<integer>0</integer>
-			</dict>
-			<key>PPP</key>
-			<dict>
-				<key>CommRemoteAddress</key>
-				<string>vpn1.goodvalley.com</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures VPN settings</string>
-			<key>PayloadDisplayName</key>
-			<string>VPN</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.vpn.managed.14F4BE72-6AF9-4B0D-B110-E53BFE55F4E3</string>
-			<key>PayloadType</key>
-			<string>com.apple.vpn.managed</string>
-			<key>PayloadUUID</key>
-			<string>14F4BE72-6AF9-4B0D-B110-E53BFE55F4E3</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>Proxies</key>
-			<dict>
-				<key>HTTPEnable</key>
-				<integer>0</integer>
-				<key>HTTPSEnable</key>
-				<integer>0</integer>
-			</dict>
-			<key>UserDefinedName</key>
-			<string>GoodValley</string>
-			<key>VPNType</key>
-			<string>L2TP</string>
-		</dict>
-		<dict>
 			<key>Password</key>
 			<string>qwerty</string>
 			<key>PayloadCertificateFileName</key>
-			<string>cert_Goodvalley Root CA.p12</string>
+			<string>cert_GlobalProtect_CA.p12</string>
 			<key>PayloadContent</key>
 			<data>
-			MIIJuQIBAzCCCX8GCSqGSIb3DQEHAaCCCXAEgglsMIIJaDCCBB8G
-			CSqGSIb3DQEHBqCCBBAwggQMAgEAMIIEBQYJKoZIhvcNAQcBMBwG
-			CiqGSIb3DQEMAQYwDgQIxIC2/hhxlTwCAggAgIID2Ibmzzb3QMrP
-			QnMsdWu+0tijOHY2O9UjAKWFaUqPQX5H3TvgGP1i/gsn7lHgczte
-			9YdytK3fBH9wNru2BXiq9VMyeYMfQv5IoiMddBu84wBWGQLL9QAQ
-			w5G1TzkIqeqzGu0XO+oJaanLG4ikjzt1qjboo00XuqgbnPP7xwEa
-			NoP64F73bXdeiaxlRJNltudLd8EQlFcvOYQU5x8MjvWvhn9VR0bf
-			KUQLJ7FyQuZspBozZnziT1EdAMRZgXeaeeOBNTJkMVrjOqBUzcpv
-			SHkmcfCtO0vKOGSGKq0kxU/5d6XKwq3axSSJRIow//a59p64wiId
-			Ic7QCLI8cHGszKFxQaK6ejI9JwH1Dgh3hS/8OMMqFbs1CSYxzTMd
-			y3ifbvNzHA7k5CP9o4jcUBKtEXKx3zkp+COhoEvMprwf5c1nAU/C
-			wiRDhC6zyuYDvC9uxjWtU3PrC7TGertNa0HkE13RsO4puRCoUDSi
-			Bd/hrOYnmkZpuw33dLNtwv/oNF8jF1A57SwBzLlPjEMsbC8oDo1h
-			50QIVOODcbUvFFlLkKT4I+Ehn1svPgg+RamaGW5xs33C/VpE67qv
-			UW97o9+ai3KznjxWqIi9aFwfCom+yT/5s5bSpaQx3zaf36yvVCp0
-			irhVjV09HxGEPLBY2YPlMzaiCkJWw/BrGBfF4seY+dkeP8NdBKIR
-			loyF6paQIPyQVJc08Gfk4+r12qZkY/uCfe8Zb5ym9+GL++aI7niM
-			iDeJqsvea7q/86i2BOG7CMjSEQuC008sKYRInkVTS5S/tZzvKZvO
-			pLVKJSNvqVBFr6zsVFtXGqya0eGCSa0WDxLVYJaZtYlH7PirpP60
-			iOOcIHKy2jYEF9BICln/DeerSaYqU13HGIPacZN0uDGYc1iks6pc
-			V2l4fQE0M1Yxlt6jvRFnlso/hppP4R87sk5PuxlLws+/4XouuHC6
-			hfrp21X8/pcOFvgk7VErOe8TQoIMkwjmuDgxaRgJqDLOpoM8Uw9m
-			iR+qDR+ERm1GPhApfTWLmgt4/waOhzIW4kcL2GYnlrvzcTBkRLck
-			N/UtXSKYwXKKNl4NK2a+Dtqbzotn/FnJ9wlxZHvNH9fFjfP3WnzA
-			F7uXyq5l0YBoVB05flYdF0ygLetXf7ebLRe8DKS0HiFtH4LS4KE/
-			bExG/DHxx2PXmsuFwv+48+ncGEB5zKw2lqTxebffCFBHyp6AC9q8
-			DOvqBVx4qqsPprU5bw03jEhKUnvWoV8+yKRSLdRMuyLMRdVmVE4K
-			Y8i32zgsenfxnOk1xrd9tV0xnlj27NIQULgixSWAzPUGmOs1n9oj
-			DDCCBUEGCSqGSIb3DQEHAaCCBTIEggUuMIIFKjCCBSYGCyqGSIb3
-			DQEMCgECoIIE7jCCBOowHAYKKoZIhvcNAQwBAzAOBAhvrkOxrjRn
-			9wICCAAEggTIlSXdJKehYCZoI2cVXhGSaCmNJs38DFvBuM/K21+Z
-			U7APPoMbVP9d7RGFRldsA2bZnLW/yibAS9dxy3nbjaVDzb/ZbD3f
-			zvu8ZPj44jmw49LLTr1V14VZlR57mdgNqVOs+pzaAbMorDS6OAYU
-			4NnyyhTVlPO6LbRF+bHsfLnI7Dsbuy89LM0GYQVcaiPFLkRpRn9w
-			qos+IKBF+Tq3rJiKYA+5+0s+Ymw4p7wXU6g+AkMO3Vq3LN0Gq5z0
-			Ddvayg5dJ2A/Qfr47+pF/3zkXqP0MLqs/VF+Cpt9mSMFHrg+cAsW
-			MUReDttYUMAtCUOzZlaSb7H/31BnjWR6Mjs45dysMKsaH5XJ4wER
-			zH0t+gTwnADYWhKE58ifOV8KkKxJLrvU6TVzp2cur4qn90CIWeVF
-			RQB/evsvFXo1NA6J7YGgAc7Y9eiasWb5AlUdaYNYTaxUXVuBtWT2
-			XB/5Pea4c8gb98PQ5VR/pQQPmEO4jI6pisZfNsX5VDfZFp/4IFiu
-			fzMFBFoWRmA2AWqXd8RH0pVf71jnZ0z7C5pdI1E1UmGDxyhZQ7WL
-			W90fYrH7PJxHnJuJMrwKJKtFPsKeFjp9x47TCnwYHXsKey3som+V
-			5TffcOVM9dhX1iAp2YGIASJzYucUTAlbm+PIN+gBp+Dc6SjqvNCG
-			Y0chwyEUxfWT9AAJs4v/CExmbu1EKMKjUC6TXzfa3Luc7JMFreBn
-			y0RHOI8tL1u+1m5YyCtu5246+8auGLmABmSd4fzEbCOgFGoGHBs3
-			1BNh5N23E+KMbhFIGgwKJmCBhfMUx7FX5babzEBqJ5hIpe1VeALH
-			74Nd/ARae6IA/5JUgDg+KG9lFIUI6UpSVYiyLXyxBe0MffLG7BRD
-			bln1mK7lmJOSGkDMbmrZ00uKsSK8/t0dc5e9Ei4jGC61wIimE+Rb
-			jO0ZSyFP5IexDThjLBYlAkZxNClttkg/7pBIf4t4De8N9T4AEoRP
-			R4g6/KTXmnXu79Spkcbof8zIYG+UTDvDJN+rODDaTJOGBDB9bkxu
-			KkwwCJJs8TEel5VD6Og1yJiD8oRlnR5yfE3mxCKeqdX8WIv4Q4Hp
-			381rjoAxYJbwY2fhb2RClC88/YVxOQJLxU8JAklT9Orbw6ztA9pl
-			D5f9bfVdrZiIHS6H/tDWYPGAZmOZSDNKeOP9S/UFt4GGzpdE+HyB
-			VSB4EWw8aExrMhu78osjnK6Awha8NCtgrIAk+gCR7YY6bHUc3xh7
-			gS6YpeE0Bf0qky/wMCW4kUKCqXUynXjG1VkCaR9a/sUpQjXLhBGp
-			kMw2orPKIPMDdWJ4hywu2EXTzdHD/O7P/nvJT0xYR0N9YYzZKbcc
-			pVeshngRv5dU99W/JoEYwSKXrfJPOBVKXvOjwZ/xoBcw/pMK+5yv
-			17ZLbmrnTFyt1OGR38ZsZaPjh0oP4iDVJ1t2IiegXRN4luq1Mu4b
-			TQ6aMhtuQ1u4JOI1Zvim7DSQbyEjsxLMfho0rgkz9u/b2/ThqHTO
-			l88ushRmeAH8SKJvKRCxASpxK6uozkSdA44lEKSJ5wCqz6iuA77r
-			/myU9h6xxdoCKTZp1VyPKfi6RF4T+GJUiLfcbCW6YO1ePE77QA8W
-			kY0RoyP5afRusoFZXRObRQysRFKHiuTuMSUwIwYJKoZIhvcNAQkV
-			MRYEFOC37/I8Ayl/MkUUs0+jlbYrl8KuMDEwITAJBgUrDgMCGgUA
-			BBQKb9uX0Dq19B2br7f38L5MetZPQwQIlpDTnoMw/aUCAggA
+			MIIJGQIBAzCCCN8GCSqGSIb3DQEHAaCCCNAEggjMMIIIyDCCA38G
+			CSqGSIb3DQEHBqCCA3AwggNsAgEAMIIDZQYJKoZIhvcNAQcBMBwG
+			CiqGSIb3DQEMAQYwDgQIE2yzVXWEPTECAggAgIIDOF6uMomWXniV
+			JAUN6imAAhsefYp3i5txVt7gvVEQ9Dq4WOjP2qngPllDxGp5CWvg
+			af/0beFEssWrGcWxydRcmatX1L4wzqU3ZtaeahaANdejKldB8aN5
+			l7hsPdJvKWW7sPpLa8UvmHtHY46J0L72m1v2GCb5YF8q9H0MeXII
+			sFYPX2WM+gkxZ0cPPs9DtFxHaVv03wXBmmgSzVbP97vs6SsT3zPt
+			JTe7QfwPjKBtisTwGjx+dC63AlJSipxp8C22/LWUuMf8k9FaAMom
+			+K78Cb5vlLEw5OAgMY8dJE62C/ZttLjqR11Q547hA8jwhFNPK5Vh
+			u9hjnK3D2J348IbeSfMdP338Vp8ToZ3N4N0P0Rn4vetPn/bufm38
+			Bx4O1ewqpbHW1VF+T1cGClTKRJGtiA0YFSACDiGeMyVzVwq7FCUR
+			UEhoHrsooovFLDaF3/l38C0YaXFpbpkGTtIA0o2UittTWiHvnvOo
+			6gQGUO9rEV37JHOBP5JrWOrVgKr1WSRzE28xnobRN0QGkJmG3BcO
+			1EDv63i+kZ35r6MtqUdQXCJA/ooJZuh//XM8YdZ2kH24K8ezpi3J
+			wvAUc8iYZFyQf0gS/BiieacsWFBpkQxYlSv+MDmMKv16PI5kWX93
+			+XLfkMjgvC0nfeRKN1j7RCB4xkgGlgXDkJNsyDLq6cqrcXYTnYFY
+			kAXzUGKjZIiUO5fYY7Eog5tppuhSkkWQxHJj2vqjyhdc1pJqMuca
+			YRSwgEkzZxAqyRsotEzvnKeNkbqGKZHt1f0KBi12Cynw/MY5LUn1
+			3cWIjlsQK/RDxpbp2IeRI3uPJsgeH+3nFeFragR8nl/ZzlttGtjH
+			zHkQ8EyUGAWec+XGYW6W06GOuZMPy3giEiyGXuRCSH8vHVEnx2ex
+			quw1Q97koOsC49sn7Xj/BI6dDwHAtLkGBhIwojoQ1+kD6yYA+Vmj
+			eiHU4gt8cLHnV3+7VCJ6bxtPOuE3asAk/BWKE2rQkX29c2EFN0gQ
+			g6PJJxPuRVk9ZwwoLc5UX8qIqs8aVp+2H9zmNuVCZv8IDGjy1DHM
+			8NRabYKl9xSaBCafPzRot0QeTZ/ztgK9utPQBe00dcyIxthvMIIF
+			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
 			</data>
 			<key>PayloadDescription</key>
 			<string>Adds a PKCS#12-formatted certificate</string>
 			<key>PayloadDisplayName</key>
-			<string>cert_Goodvalley Root CA.p12</string>
+			<string>cert_GlobalProtect_CA.p12</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.security.pkcs12.CF814D2B-C4EF-4253-B7B2-1955AC8ACC4F</string>
+			<string>com.apple.security.pkcs12.39D1407E-074E-475C-A4DE-CC5CD2559E22</string>
 			<key>PayloadType</key>
 			<string>com.apple.security.pkcs12</string>
 			<key>PayloadUUID</key>
-			<string>CF814D2B-C4EF-4253-B7B2-1955AC8ACC4F</string>
+			<string>39D1407E-074E-475C-A4DE-CC5CD2559E22</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>GoodValley</string>
+	<string>Goodvalley</string>
 	<key>PayloadIdentifier</key>
-	<string>Air.02F3EA19-3B31-43EB-810C-812DE2DE1035</string>
+	<string>Air.54F5A4E7-2A11-4536-97C3-9C4161218712</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>D89659EF-DC78-41E9-B3D1-8F1BCF01214E</string>
+	<string>E9C6539B-61EF-4BF1-BDA9-87981C40D3C1</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
