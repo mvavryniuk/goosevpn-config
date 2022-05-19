@@ -5,6 +5,48 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
+			<key>IPSec</key>
+			<dict>
+				<key>AuthenticationMethod</key>
+				<string>Certificate</string>
+				<key>PayloadCertificateUUID</key>
+				<string>00783F93-49E2-40A0-BE16-40906D82FA8C</string>
+			</dict>
+			<key>IPv4</key>
+			<dict>
+				<key>OverridePrimary</key>
+				<integer>0</integer>
+			</dict>
+			<key>PPP</key>
+			<dict>
+				<key>CommRemoteAddress</key>
+				<string>vpn1.goodvalley.com</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures VPN settings</string>
+			<key>PayloadDisplayName</key>
+			<string>VPN</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.vpn.managed.88C0AB9C-98D7-4647-B423-BF2B737D96D9</string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>88C0AB9C-98D7-4647-B423-BF2B737D96D9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Proxies</key>
+			<dict>
+				<key>HTTPEnable</key>
+				<integer>0</integer>
+				<key>HTTPSEnable</key>
+				<integer>0</integer>
+			</dict>
+			<key>UserDefinedName</key>
+			<string>Goodvalley</string>
+			<key>VPNType</key>
+			<string>L2TP</string>
+		</dict>
+		<dict>
 			<key>Password</key>
 			<string>qwerty</string>
 			<key>PayloadCertificateFileName</key>
@@ -96,7 +138,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>2315CF67-7F8B-4AC4-9269-C3813025E6BD</string>
+	<string>C688A29F-F6EC-437C-AEC5-58FDA5E5B8B2</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
